@@ -1,3 +1,5 @@
+/* CSS для главной страницы */
+
 body{
 	font-family: Verdana;
 }
@@ -69,7 +71,7 @@ li.menu-li a::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background-color: yellow;
+	background-color: ;
 	position: absolute;
 	top: 90%;
 	right: 0;
@@ -82,12 +84,12 @@ li.menu-li:hover{
 }
 
 li.menu-li:hover a::before{
-	width: 50%;
-	transform: translateX(100%);
+	width: 80%;
+	transform: translateX(20%);
 }
 
 li.menu-li:hover a::after{
-	width: 50%;
+	width: 0%;
 	transform: translateX(-100%);
 }
 

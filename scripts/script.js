@@ -1,3 +1,4 @@
+/* Скрипт для кнопки вверх */
 var btn = $('#button');
 
 $(window).scroll(function() {

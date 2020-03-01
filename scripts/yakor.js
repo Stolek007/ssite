@@ -1,3 +1,5 @@
+/* Скрипт для плавного перехода якорей */
+
 $(function(){
   $('.menu-li').on('click', function(event) {
 
