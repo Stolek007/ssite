@@ -5,7 +5,11 @@
 	<link rel="stylesheet" href="styles/style.css" type="text/css">
 	<link rel="stylesheet" href="styles/font-awesome.css" type="text/css">
     <link rel="stylesheet" href="styles/style_slider.css" type="text/css">
-	<title>CSS3 menu</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/for_up.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+    <title>CSS3 menu</title>
 </head>
 <body>
 
@@ -15,11 +19,11 @@
             <div class="main-menu">
                 <ul class="menu-ul">
                     <li class="logo"><a href="index.html">Сайт-визитка</a></li>
-                    <li class="menu-li"><a href="#"><i class="fa fa-clipboard" aria-hidden="true"></i>РЕЗЮМЕ</a></li>
-                    <li class="menu-li"><a href="#"><i class="fa fa-image"></i>ПОРТФОЛИО</a></li>
-                    <li class="menu-li"><a href="#"><i class="fa fa-cogs"></i>УСЛУГИ</a></li>
-                    <li class="menu-li"><a href="#"><i class="fa fa-users"></i>НАША КОМАНДА</a></li>
-                    <li class="menu-li"><a href="#"><i class="fa fa-address-book"></i>КОНТАКТЫ</a></li>
+                    <li class="menu-li"><a href="#resumme"><i class="fa fa-clipboard" aria-hidden="true"></i>РЕЗЮМЕ</a></li>
+                    <li class="menu-li"><a href="#pportfolio"><i class="fa fa-image"></i>ПОРТФОЛИО</a></li>
+                    <li class="menu-li"><a href="#sservices"><i class="fa fa-cogs"></i>УСЛУГИ</a></li>
+                    <li class="menu-li"><a href="#oour_tteam"><i class="fa fa-users"></i>НАША КОМАНДА</a></li>
+                    <li class="menu-li"><a href="#ccontacts"><i class="fa fa-address-book"></i>КОНТАКТЫ</a></li>
                 </ul>
             </div>
         </nav>
@@ -34,10 +38,13 @@
 
 
     </header>
+
+    <a id="button"></a>
     <!-- Конец шапки сайта-->
 
     <!-- Раздел НАШИ УСЛУГИ -->
     <div class="main_our_services">
+        <a name="sservices"></a>
         <h1 class="our_services"><i class="fa fa-check-circle" width="100" height="100"></i>НАШИ УСЛУГИ</h1>
 
         <div class="our_services_spisok">
@@ -186,9 +193,9 @@
         <p class="about_us">О нашей команде</p>
     </div>
 
-    <!-- Раздел "Моя комманда" -->
+    <!-- Раздел "Наша комманда" -->
     <div class="my_command">
-
+        <a name="oour_tteam"></a>
         <h1><i class="fa fa-user-circle"></i>НАША КОМАНДА</h1>
 
         <div class="my_command_spisok">
@@ -234,8 +241,8 @@
 
     <!-- Раздел "Резюме" -->
     <div class="resume">
-
-        <h1 class="resume_resume">РЕЗЮМЕ</h1>
+        <a name="resumme"></a>
+        <h1 class="resume_resume" name="resumme">РЕЗЮМЕ</h1>
 
         <div class="resume_text">
             <p>Работа: Веб-разработчик, менеджер</p>
@@ -249,39 +256,39 @@
 
     <!-- Раздел портфолио -->
     <div class="portfolio">
-        
+        <a name="pportfolio"></a>
     </div>
 
 
     <!-- Раздел "Как попасть к нам в команду" -->
-   <div class="how_to_join_us">
-       
+    <div class="how_to_join_us">
+
         <h1><i class="fa fa-user-plus"></i>КАК ПОПАСТЬ К НАМ В КОМАНДУ</h1>
         <p>Для того чтобы попасть к нам в команду Вам нужно...</p>
         <form action="#">
-        <button><i class="fa fa-address-book"></i>Заполнить заявку</button>
+            <button><i class="fa fa-address-book"></i>Заполнить заявку</button>
         </form>
-   </div>
+    </div>
 
-   <!-- Раздел "Доп. информация" -->
-   <div class="additional_info">
-       <h1><i class="fa fa-info-circle"></i>ДОП. ИНФОРМАЦИЯ</h1>
+    <!-- Раздел "Доп. информация" -->
+    <div class="additional_info">
+     <h1><i class="fa fa-info-circle"></i>ДОП. ИНФОРМАЦИЯ</h1>
 
-       <div class="additional_info_spisok">
+     <div class="additional_info_spisok">
         <p><i class="fa fa-check"></i>Виды веб сайтов</p>
         <p><i class="fa fa-check"></i>Основные этапы разработки сайтов</p>
         <p><i class="fa fa-check"></i>Оплата работы</p>
         <p><i class="fa fa-check"></i>С чем мы умеем работать ?</p>
         <p><i class="fa fa-check"></i>Самые часто задаваемые вопросы (FAQ)</p>  
 
-       </div>
+    </div>
 
-   </div>
+</div>
 
 
-   <!-- Раздел "Контакты" -->
-   <div class="contacts">
-
+<!-- Раздел "Контакты" -->
+<div class="contacts">
+    <a name="ccontacts"></a>
     <div class="contacts_spisok">
 
         <div class="contacts_first_column">
@@ -311,26 +318,28 @@
         </div>
         
     </div>
-       
-   </div>
 
-   <!-- Раздел "Соц.сети" -->
-   <div class="soc">
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-vk"></i></a>
-        <a href="#"><i class="fa fa-telegram"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-   </div>
+</div>
 
-   <footer>
-       <div class="c2020">
-           <h4>© 2020. Фрилансер, Веб-программист. Все права защищены.</h4>
-       </div>
-   </footer>
+<!-- Раздел "Соц.сети" -->
+<div class="soc">
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-vk"></i></a>
+    <a href="#"><i class="fa fa-telegram"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+</div>
 
-    <!-- Подключаем библиотеку jquery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<footer>
+ <div class="c2020">
+     <h4>© 2020. Фрилансер, Веб-программист. Все права защищены.</h4>
+ </div>
+</footer>
+
+<!-- Подключаем библиотеку jquery -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<script type="text/javascript" src="scripts/script.js"></script>
 
 </body>
 </html>
