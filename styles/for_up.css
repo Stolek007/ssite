@@ -16,7 +16,7 @@
   visibility: hidden;
   z-index: 1000;
   margin-right: 400px;
-}
+} 
 #button::after {
   content: "\f077";
   font-family: FontAwesome;
