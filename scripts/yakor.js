@@ -1,5 +1,5 @@
 $(function(){
-  $('.main-menu').on('click', function(event) {
+  $('.menu-li').on('click', function(event) {
 
     // отменяем стандартное действие
     event.preventDefault();

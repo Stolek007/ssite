@@ -1,0 +1,129 @@
+body{
+	font-family: Verdana;
+}
+
+header {
+  background-image: url();
+}
+
+
+
+.logo {
+	text-decoration: none;
+  text-align: left;
+  font-size: 18px;
+  color: #000;
+  position: relative;
+  padding: 5px;
+  list-style: none;
+  padding: 10px;
+  padding-right: 430px;
+
+}
+
+.logo:hover {
+  color: green;
+  text-decoration: none;
+}
+
+.main_menu{
+	width: 100%;
+}
+
+ul.menu_ul{
+	display: flex;
+	padding: 0;
+	justify-content: left;
+}
+
+li.menu_li{
+	list-style: none;
+	padding: 10px;
+}
+
+li.menu_li a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #000;
+	position: relative;
+	padding: 5px;
+}
+
+li.menu_li a i{
+	margin-right: 10px;
+}
+
+li.menu_li a::before{
+	content: '';
+	width: 0;
+	height: 3px;
+	background-color: blue;
+	position: absolute;
+	top: 90%;
+	left: 0;
+	transition: .5s;
+	mix-blend-mode: multiply;
+}
+
+li.menu_li a::after{
+	content: '';
+	width: 0;
+	height: 3px;
+	background-color: yellow;
+	position: absolute;
+	top: 90%;
+	right: 0;
+	transition: .5s;
+	mix-blend-mode: multiply;
+}
+
+li.menu_li:hover{
+	
+}
+
+li.menu_li:hover a::before{
+	width: 50%;
+	transform: translateX(100%);
+}
+
+li.menu_li:hover a::after{
+	width: 50%;
+	transform: translateX(-100%);
+}
+
+li.menu_li a:hover{
+	color: green;
+}
+
+.mac_menu {
+	width: 100%;
+}
+
+ul.mac_ul {
+	display: flex;
+	padding: 0;
+	justify-content: center;
+}
+
+li.mac_li{
+	list-style: none;
+	padding: 10px;
+}
+
+li.mac_li a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #000;
+	position: relative;
+	padding: 5px;
+}
+
+li.mac_li{
+	list-style: none;
+	padding: 10px;
+}
+
+.mac_li {
+	margin-right: 40px;
+	margin-left: 40px;
+}
