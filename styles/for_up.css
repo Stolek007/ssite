@@ -16,7 +16,11 @@
   visibility: hidden;
   z-index: 1000;
   margin-right: 400px;
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> f5b73e657586a8ce7ec506a00cbb822ac6d3389f
 #button::after {
   content: "\f077";
   font-family: FontAwesome;
