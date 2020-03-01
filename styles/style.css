@@ -330,3 +330,14 @@ li.menu-li a:hover{
 .additional_info i {
   margin-right: 20px;
 }
+
+.soc {
+  text-align: center;
+}
+
+.c2020 {
+  text-align: center;
+  background-color: green;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
