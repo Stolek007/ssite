@@ -1,7 +1,7 @@
 /* Скрипт для плавного перехода якорей */
 
 $(function(){
-  $('.menu-li').on('click', function(event) {
+  $('.menu-ul').on('click', function(event) {
 
     // отменяем стандартное действие
     event.preventDefault();
@@ -13,10 +13,8 @@ $(function(){
     * dn - определяем положение блока на странице
     */
     
-    $('html, body').animate({scrollTop: dn}, 1000);
+    $('html, body').animate({scrollTop: dn}, 10000);
     
-    /*
-    * 1000 скорость перехода в миллисекундах
-    */
+    /*1000 - скорость перехода в мс */
   });
 });
