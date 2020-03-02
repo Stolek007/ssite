@@ -2,6 +2,7 @@
 
 body{
 	font-family: Verdana;
+  background-color: gray;
 }
 
 header {
@@ -133,6 +134,7 @@ li.menu-li a:hover{
 
 .our_services {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .our_services i {
@@ -198,6 +200,7 @@ li.menu-li a:hover{
 .advantages_advantages {
   text-align: center;
   margin-top: 75px;
+  margin-bottom: 40px;
 }
 
 .advantages_spisok div {
@@ -229,7 +232,11 @@ li.menu-li a:hover{
 
 .my_command {
   text-align: center;
-  margin-top: 70px;
+}
+
+.my_command_my_command {
+  margin-top: 75px;
+  margin-bottom: 40px;
 }
 
 .my_command h1 i {
@@ -267,15 +274,35 @@ li.menu-li a:hover{
 
 .resume_resume {
   margin-top: 75px;
+  margin-bottom: 40px;
+}
+
+.portfolio {
+  text-align: center;
+  margin-top: 75px;
+}
+
+.button_portfolio {
+  width: 250px;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.button_portfolio:hover{
+  color: red;
+  border-color: red;
 }
 
 .how_to_join_us {
   text-align: center;
 }
 
-.how_to_join_us h1 {
+.how_to_join_us_how_to_join_us {
   margin-top: 75px;
+  margin-bottom: 40px;
 }
+
 
 .how_to_join_us button {
   size: 20px;
@@ -338,11 +365,15 @@ li.menu-li a:hover{
   padding-left: 750px;
   padding-right: 600px;
   text-align: left;
+  margin-bottom: 75px;
 }
 
-.additional_info h1 {
+.additional_info_additional_info {
   margin-top: 75px;
+  margin-bottom: 40px;
 }
+
+
 
 .additional_info a {
   text-decoration: none;
@@ -360,7 +391,7 @@ li.menu-li a:hover{
 
 .c2020 {
   text-align: center;
-  background-color: green;
+  cursor: pointer;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
