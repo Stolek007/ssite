@@ -211,12 +211,36 @@ li.menu-li:focus:after {
   justify-content: center;
 }
 
+.advantages_adequate_price i {
+  margin-right: 8px;
+}
+
+.advantages_cleancode i {
+  margin-right: 8px;
+}
+
+.advantages_garantee i {
+  margin-right: 8px;
+}
+
+.advantages_lasttechnologies i {
+  margin-right: 8px;
+}
+
+.advantages_communication i {
+  margin-right: 8px;
+}
+
 .advantages_first_column {
   width: 30%;
 }
 
 .advantages_second_column {
   width: 30%;
+}
+
+.advantages_timings i {
+  margin-right: 8px;
 }
 
 .advantages_third_column {
@@ -397,6 +421,11 @@ li.menu-li:focus:after {
 .additional_info_additional_info {
   margin-top: 75px;
   margin-bottom: 40px;
+}
+
+.additional_info_spisok a{
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 
