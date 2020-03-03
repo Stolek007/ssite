@@ -16,7 +16,7 @@ header {
 .logo {
   text-align: left;
   font-size: 18px;
-  color: #000;
+  color: red;
   position: relative;
   padding: 5px;
   list-style: none;
@@ -46,7 +46,7 @@ header {
 }
 
 .menu-li:after {
-   background-color: #ffeb3b;
+   background-color: black; /* Цвет линии под меню */
     display: block;
     content: "";
     height: 2px;
