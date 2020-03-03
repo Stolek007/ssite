@@ -4,16 +4,84 @@
     <script src="scripts/jquery-3.4.1.min.js"></script>
 
     <meta charset="UTF-8">
+    
     <link rel="stylesheet" href="styles/style.css" type="text/css">
     <link rel="stylesheet" href="styles/font-awesome.css" type="text/css">
     <link rel="stylesheet" href="styles/style_slider.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/for_up.css">
+    <link rel="stylesheet" href="styles/style_for_z.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+
     <title>CSS3 menu</title>
 </head>
 <body>  
+
+    <!-- Вспылывающее окно для 'Заказать услугу' -->
+    <div class="modal-back">
+                <div class="modal-content">
+                    <div class="accept">
+                        <h3><img src="img/email.svg" alt="">ВЫ ГОТОВЫ СДЕЛАТЬ ЗАКАЗ?</h3>
+                    </div>
+                    
+                    <div class="user-info">
+                        <div class="user-information">
+                            <div class="name-user">
+                                <label for="fname">Как вас зовут? <span> *</span></label>
+                                <div class="user-name-input">
+                                    <input type="text" name="fname" id="">
+                                </div>
+                            </div>
+                            <div class="email-user">
+                                <label for="email">Ваш e-mail <span> *</span></label>
+                                <div class="email-name-input">
+                                    <input type="text" name="email" id="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-information">
+                            <div class="phone-user">
+                                <label for="phone">Контактный телефон <span> *</span></label>
+                                <div class="phone-name-input">
+                                    <input type="text" name="phone" id="">
+                                </div>
+                            </div>
+                            <div class="task-user">
+                                <label for="task">Выберите услугу</label>
+                                <div class="task-name-select">
+                                    <select name="task" id="" value="">
+                                        <option value="">HTML вёрстка</option>
+                                        <option value="">Сайт визитка</option>
+                                        <option value="">Интернет-магазин</option>
+                                        <option value="">Сайт-каталог</option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="send">
+                        <div class="send-icon">
+                            <h3>ОТПРАВИТЬ</h3>
+                        </div>
+                    </div>
+
+                    <div class="close-icon">
+                        <i class="close">&times;</i>
+                    </div>
+                </div>
+    </div>
 
     <!-- Шапка сайта -->
     <header>
@@ -48,13 +116,13 @@
 
     <!-- Раздел НАШИ УСЛУГИ -->
     <div class="main_our_services">
-
-        <!-- Якорь -->
         <a name="sservices"></a>
-
         <h1 class="our_services"><i class="fa fa-check-circle" width="100" height="100"></i>НАШИ УСЛУГИ</h1>
+
         <div class="our_services_spisok">
+
             <div class="first_column">
+
                 <div class="our_services_verstka">
                     <h3>ВЕРСТКА САЙТА</h3>
                     <p>Верстаем сайт по любому макету.</p>
@@ -99,6 +167,7 @@
                     <p>Зарегистрируем Ваш сайт по желаемому домену, поставим на хостинг и запустим!</p>
                 </div>
 
+
             </div>
 
 
@@ -116,21 +185,24 @@
                     <p>Напишем Ваш сайт с нуля, сделаем макет, сверстаем, проработаем анимации и Back-End.</p>
                 </div>
 
+
+
                 <div class="our_services_seo">
                     <h3>SEO САЙТА</h3>
                     <p>Настроим SEO Вашего сайта так, что Ваш сайт будет высвечиваться на первых строках во всех соответствуюших ему запросах.</p>
                 </div>
+
+
 
                 <div class="our_services_scripts">
                     <h3>НАПИСАНИЕ СКРИПТОВ</h3>
                     <p>Напишем для Вашего сайта необходимые скрипты(рассылка, анимации, приветствие на сайте, cookie, собирающиеся данные)</p>
                 </div>
 
-
             </div>
 
-        </div>
 
+        </div>
     </div>
 
     <!-- Раздел "Преимущества" -->
@@ -152,7 +224,6 @@
                     <h3>ЧИСТЫЙ И ОПТИМИЗИРОВАННЫЙ КОД</h3>
                     <p>HTML, CSS, JS, PHP код оптимизирован, чист, с комментариями и правильной табуляцией</p>
                 </div>
-
             </div>
 
             <div class="advantages_second_column">
@@ -182,10 +253,9 @@
                 </div>
 
             </div>
-
         </div>
-
     </div>
+
 
     <!-- Раздел "Обо мне и моей команде" -->
     <div class="about_me_and_my_command">
@@ -197,19 +267,19 @@
 
     <!-- Раздел "Наша комманда" -->
     <div class="my_command">
-
-        <!-- Якорь -->
         <a name="oour_tteam"></a>
+        <h1><i class="fa fa-user-circle"></i>НАША КОМАНДА</h1>
 
-        <h1 class="my_command_my_command"><i class="fa fa-user-circle"></i>НАША КОМАНДА</h1>
         <div class="my_command_spisok">
 
             <div class="my_command_first_column">
 
                 <div class="ivan_gubar">
+
                     <img src="img/avatar.png">
                     <h3>Иван Губарь</h3>
                     <p>Занимается программированием</p>
+
                 </div>
 
             </div>
@@ -220,6 +290,7 @@
                     <img src="img/avatar.png">
                     <h3>Владислав Колмагоров</h3>
                     <p>Занимается программированием</p>
+
                 </div>
 
             </div>
@@ -227,24 +298,24 @@
             <div class="my_command_third_column">
 
                 <div class="dogonov_aleksandr">
+
                     <img src="img/avatar.png">
                     <h3>Александр Догонов</h3>
                     <p>Занимается программированием.</p>
+
                 </div>
 
             </div>
-
         </div>
 
     </div>
 
+
     <!-- Раздел "Резюме" -->
     <div class="resume">
-
-        <!-- Якорь -->
         <a name="resumme"></a>
-
         <h1 class="resume_resume" name="resumme">РЕЗЮМЕ</h1>
+
         <div class="resume_text">
             <p>Работа: Веб-разработчик, менеджер</p>
             <p>Ф.И.О.: Губарь Иван Дмитриевич</p>
@@ -257,56 +328,39 @@
 
     <!-- Раздел портфолио -->
     <div class="portfolio">
-
-        <!-- Якорь -->
         <a name="pportfolio"></a>
-        <div class="portfolio_portfolio">
-
-            <h1><i class="fa fa-image"></i>ПОРТФОЛИО</h1>
-
-        </div>
-
-        <!-- Здесь должен быть слайдер -->
-        <div class="slider">
-        </div>
-
-        <form action="full_portfolio.html">
-            <button class="button_portfolio"><i class="fa fa-plus-square"></i>Полное портфолио</button>
-        </form>
-
     </div>
+
 
     <!-- Раздел "Как попасть к нам в команду" -->
     <div class="how_to_join_us">
-        <h1 class="how_to_join_us_how_to_join_us"><i class="fa fa-user-plus"></i>КАК ПОПАСТЬ К НАМ В КОМАНДУ</h1>
+
+        <h1><i class="fa fa-user-plus"></i>КАК ПОПАСТЬ К НАМ В КОМАНДУ</h1>
         <p>Для того чтобы попасть к нам в команду Вам нужно...</p>
         <form action="#">
             <button><i class="fa fa-address-book"></i>Заполнить заявку</button>
         </form>
-
     </div>
 
     <!-- Раздел "Доп. информация" -->
     <div class="additional_info">
+     <h1><i class="fa fa-info-circle"></i>ДОП. ИНФОРМАЦИЯ</h1>
 
-     <h1 class="additional_info_additional_info"><i class="fa fa-info-circle"></i>ДОП. ИНФОРМАЦИЯ</h1>
      <div class="additional_info_spisok">
+        <p><i class="fa fa-check"></i>Виды веб сайтов</p>
+        <p><i class="fa fa-check"></i>Основные этапы разработки сайтов</p>
+        <p><i class="fa fa-check"></i>Оплата работы</p>
+        <p><i class="fa fa-check"></i>С чем мы умеем работать ?</p>
+        <p><i class="fa fa-check"></i>Самые часто задаваемые вопросы (FAQ)</p>  
 
-        <p><i class="fa fa-check"></i><a href="">Виды веб сайтов</a></p>
-        <p><i class="fa fa-check"></i><a href="">Основные этапы разработки сайтов</a></p>
-        <p><i class="fa fa-check"></i><a href="">Оплата работы</a></p>
-        <p><i class="fa fa-check"></i><a href="">С чем мы умеем работать ?</a></p>
-        <p><i class="fa fa-check"></i><a href="">Самые часто задаваемые вопросы (FAQ)</a></p>  
     </div>
 
 </div>
 
+
 <!-- Раздел "Контакты" -->
 <div class="contacts">
-
-    <!-- Якорь -->
     <a name="ccontacts"></a>
-
     <div class="contacts_spisok">
 
         <div class="contacts_first_column">
@@ -334,7 +388,7 @@
             <h3>Telegram</h3>
             <p>@programmer_vanchous</p>
         </div>
-
+        
     </div>
 
 </div>
@@ -352,7 +406,6 @@
  <div class="c2020">
      <h4>© 2020. Фрилансер, Веб-программист. Все права защищены.</h4>
  </div>
-
 </footer>
 
 <script type="text/javascript" src="scripts/script.js"></script>
@@ -360,6 +413,8 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 
 <script type="text/javascript" src="scripts/yakor.js"></script>
+
+<script type="text/javascript" src="scripts/script_for_z.js"></script>
 
 </body>
 </html>

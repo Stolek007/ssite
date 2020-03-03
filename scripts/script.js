@@ -1,4 +1,8 @@
 /* Скрипт для кнопки вверх */
+$(document).ready(function() {
+	$(".order_service_1").magnificPopup();
+})
+
 var btn = $('#button');
 
 $(window).scroll(function() {

@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+
+button{
+	outline-style: none;
+}
+input{
+	outline: none;
+}
+select{
+	outline: none;
+}
+.modal-back{
+	display: none;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	overflow: hidden;
+	z-index: 100;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.modal-content{
+	border-radius: 10px;
+	height: 500px;
+	width: 750px;
+	position: fixed;
+	justify-content: center;
+	background-color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	max-width: 750px;
+	animation: open 0.5s;
+}
+@keyframes open{
+	0%{
+		height: 0px;
+		width: 0px;
+	}
+	100%{
+		height: 500px;
+		width: 750px;
+	}
+}
+.close{
+	cursor: pointer;
+	position: fixed;
+	left: 99%;
+	top: 1%;
+	transform: translate(-100%);
+}
+.accept{
+	text-align: center;
+}
+.accept h3{
+	font-size: 25px;
+	color: rgba(0, 0 , 0, 0.9);
+	font-family: 'Arimo', serif;
+}
+.accept img{
+	height: 30px;
+	margin-right: 20px;
+	transform: translate(25%,15%);
+
+}
+.user-info{
+	display: inline-block;
+	position: relative;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%);
+	background-color: #fff;
+	height: 340px;
+	width: 720px;
+}
+.send{
+	position: relative;
+	display: block;
+	text-align: center;
+	box-sizing: border-box;
+}
+.send-icon{
+	align-items: center;
+	position: relative;
+	height: 40px;
+	width: 150px;
+	background-color: gold;
+	transform: translate(-50%);
+	left: 50%;
+	border-radius: 10px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.send-icon h3{
+	color: black;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+}
+.user-information{
+	position: relative;
+	left: 7.5px;
+	top: 10px;
+	display: inline-flex;
+	box-sizing: border-box;
+}
+.name-user{
+	height: 100px;
+	width: 350px;
+	background: white;
+	display: block;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	box-sizing: border-box;
+}
+.name-user label{
+	font-size: 15px;
+	color: #111;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.name-user span{
+	color: #d43;
+}
+.name-user input{
+	padding: 10px;
+	height: 10px;
+	width: 300px;
+	font-size: 15px;
+	color: #111;
+	border: 1px solid #111;
+	border-radius: 4px;
+	margin: 10px;
+}
+.email-user{
+	height: 100px;
+	width: 350px;
+	background: white;
+	display: block;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+}
+.email-user label{
+	font-size: 15px;
+	color: #111;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.email-user span{
+	color: #d43;
+}
+.email-user input{
+	padding: 10px;
+	height: 10px;
+	width: 300px;
+	font-size: 15px;
+	color: #111;
+	border: 1px solid #111;
+	border-radius: 4px;
+	margin: 10px;
+}
+.phone-user{
+	height: 100px;
+	width: 350px;
+	background: white;
+	display: block;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	box-sizing: border-box;
+}
+
+.phone-user label{
+	font-size: 15px;
+	color: #111;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.phone-user span{
+	color: #d43;
+}
+.phone-user input{
+	padding: 10px;
+	height: 10px;
+	width: 300px;
+	font-size: 15px;
+	color: #111;
+	border: 1px solid #111;
+	border-radius: 4px;
+	margin: 10px;
+}
+.task-user{
+	height: 100px;
+	width: 350px;
+	background: white;
+	display: block;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+}
+.task-user label{
+	font-size: 15px;
+	color: #111;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.task-user span{
+	color: #d43;
+}
+.task-user select{
+	height: 32px;
+	width: 322px;
+	font-size: 15px;
+	color: #111;
+	border: 1px solid #111;
+	border-radius: 4px;
+	margin: 10px;
+}

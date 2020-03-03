@@ -9,7 +9,9 @@ header {
   background-image: url();
 }
 
-
+.hidden {
+  display: none;
+}
 
 .logo {
   text-align: left;
