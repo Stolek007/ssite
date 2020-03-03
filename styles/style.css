@@ -2,7 +2,7 @@
 
 body{
 	font-family: Verdana;
-  background-color: gray;
+  background-color: white;
 }
 
 header {
@@ -20,7 +20,6 @@ header {
   position: relative;
   padding: 5px;
   list-style: none;
-  padding: 10px;
   padding-right: 430px;
   text-decoration: none;
 
@@ -35,15 +34,52 @@ header {
 	width: 100%;
 }
 
-ul.menu-ul{
+.menu-li {
+    display: inline-block;
+    color: red;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+    list-style: none;
+    padding: 10px;
+}
+
+.menu-li:after {
+   background-color: #ffeb3b;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+
+.menu-li:hover:after,
+.menu-li:focus:after {
+    width: 100%;
+}
+
+.menu-ul{
 	display: flex;
 	padding: 0;
 	justify-content: left;
 }
 
-li.menu-li{
+.menu-li{
 	list-style: none;
 	padding: 10px;
+  line-height: 1;
+  display: inline-block;
+  color:#ffeb3b;
+  text-decoration:none;
+  cursor: pointer;
 }
 
 li.menu-li a{
@@ -56,49 +92,37 @@ li.menu-li a{
 
 li.menu-li a i{
 	margin-right: 10px;
+
 }
 
 li.menu-li a::before{
 	content: '';
-	width: 0;
-	height: 3px;
+	width: 0%;
+	height: 2px;
 	background-color: blue;
 	position: absolute;
 	top: 90%;
 	left: 0;
 	transition: .5s;
 	mix-blend-mode: multiply;
+
 }
 
 li.menu-li a::after{
-	content: '';
-	width: 0;
-	height: 3px;
-	background-color: ;
-	position: absolute;
-	top: 90%;
-	right: 0;
-	transition: .5s;
-	mix-blend-mode: multiply;
+	display: block;
+  height: 2px;
+  width: 0%;
+  background-color: red;
+  transition: width .3s ease-in-out;
+
 }
 
-li.menu-li:hover{
-	
-}
+li.menu-li:hover:after,
+li.menu-li:focus:after {
+    width: 60%;
+    margin-top: 5px;
+  }
 
-li.menu-li:hover a::before{
-	width: 80%;
-	transform: translateX(20%);
-}
-
-li.menu-li:hover a::after{
-	width: 0%;
-	transform: translateX(-100%);
-}
-
-li.menu-li a:hover{
-	color: green;
-}
 
 .hofsite {
   text-align: center;
