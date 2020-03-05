@@ -22,6 +22,7 @@ select{
 	background-color: rgba(0, 0, 0, 0.7);
 }
 .modal-content{
+	display: block;
 	border-radius: 10px;
 	height: 500px;
 	width: 750px;
@@ -72,18 +73,19 @@ select{
 	top: 0%;
 	left: 50%;
 	transform: translate(-50%);
-	background-color: #fff;
+	background-color: white;
 	height: 340px;
 	width: 720px;
 }
 .send{
+	bottom: 10px;
 	position: relative;
 	display: block;
 	text-align: center;
 	box-sizing: border-box;
 }
 .send-icon{
-	align-items: center;
+	display: block;
 	position: relative;
 	height: 40px;
 	width: 150px;
@@ -95,6 +97,8 @@ select{
 	box-sizing: border-box;
 }
 .send-icon h3{
+	position: relative;
+	margin-bottom: 10px;
 	color: black;
 	position: relative;
 	left: 50%;
@@ -110,7 +114,7 @@ select{
 	box-sizing: border-box;
 }
 .name-user{
-	height: 100px;
+	height: 75px;
 	width: 350px;
 	background: white;
 	display: block;
@@ -138,7 +142,7 @@ select{
 	margin: 10px;
 }
 .email-user{
-	height: 100px;
+	height: 75px;
 	width: 350px;
 	background: white;
 	display: block;
@@ -165,7 +169,7 @@ select{
 	margin: 10px;
 }
 .phone-user{
-	height: 100px;
+	height: 75px;
 	width: 350px;
 	background: white;
 	display: block;
@@ -194,7 +198,7 @@ select{
 	margin: 10px;
 }
 .task-user{
-	height: 100px;
+	height: 75px;
 	width: 350px;
 	background: white;
 	display: block;
@@ -218,4 +222,77 @@ select{
 	border: 1px solid #111;
 	border-radius: 4px;
 	margin: 10px;
+}
+.chose{
+	position: relative;
+	margin-left: 7.5px;
+	margin-top: 10px;
+	display: inline-block;
+}
+.chose-this-one{
+	position: relative;
+	height: 60px;
+	width: 350px;
+	background: white;
+	display: inline-block;
+}
+.chose-this-two{
+	position: relative;
+	height: 60px;
+	width: 350px;
+	background: white;
+	display: inline-block;
+}
+.chose-this-one .label-first{
+	margin: 10px;
+}
+.fast-or-not-fast{
+	margin: 5px;
+}
+.chose-this-one span{
+	color: #d43;
+}
+.chose-this-two span{
+	color: #d43;
+} 
+.chose-this-two .label-chose{
+	margin: 10px;
+}
+.yes-or-no{
+	margin: 5px;
+}
+.user-write{
+	margin-top: 5px;
+	margin-left: 7.5px;
+	position: relative;
+	height: 100px;
+	width: 705px;
+	background-color: white;
+}
+.user-write label{
+	margin-left: 10px;
+}
+.user-write span{
+	color: #d43;
+}
+.write{
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+	width: 705px;
+	height: 75px;
+	background-color: white;
+	overflow: scroll;
+}
+#text-user{
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 670px;
+}
+.task-name-select option{
+	height: 30px;
+	width: 100px;
 }

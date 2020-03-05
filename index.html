@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="styles/contacts.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
-
-    <title>Сайт-визитка</title>
+    <title>CSS3 menu</title>
 </head>
 <body>  
 
@@ -24,7 +23,7 @@
         <nav class="mmm">
             <div class="main-menu">
                 <ul class="menu-ul">
-                    <li class="logo"><a href="index.html"><!--<img src="img/logo.png">-->Сайт-визитка</a></li>
+                    <li class="logo"><a href="index.html">Сайт-визитка</a></li>
                     <li class="menu-li"><a href="#resumme"><i class="fa fa-clipboard"></i>РЕЗЮМЕ</a></li>
                     <li class="menu-li"><a href="#pportfolio"><i class="fa fa-image"></i>ПОРТФОЛИО</a></li>
                     <li class="menu-li"><a href="#sservices"><i class="fa fa-cogs"></i>УСЛУГИ</a></li>
@@ -34,15 +33,14 @@
             </div>
         </nav>
 
+        
+            <h1 class="hofsite">Добро пожаловать!</h1>
 
-        <h1 class="hofsite">Добро пожаловать!</h1>
+            <form action="#">
+                <button class="order_service_1"><i class="fa fa-bullhorn"></i>Заказать услугу</button>
+            </form>
 
-        <form action="#">
-            <button class="order_service_1"><i class="fa fa-bullhorn"></i>Заказать услугу</button>
-        </form>
-
-
-        <!--Контакты справа от "Заказать услугу"-->
+            <!--Контакты справа от "Заказать услугу"-->
 
             <div class="contacts-near">
                 <div class="text-near">
@@ -66,12 +64,10 @@
                 </div>
             </div>
 
-
-
-
     </header>
     
-<!-- Всплывающее окно для вкладки "Заказать услуги" -->
+
+    <!-- Вспылывающее окно для 'Заказать услугу' -->
     <div class="modal-back">
                 <div class="modal-content">
                     <div class="accept">
@@ -101,28 +97,62 @@
                                 </div>
                             </div>
                             <div class="task-user">
-                                <label for="task">Выберите услугу</label>
+                                <label for="task">Выберите услугу <span> *</span></label>
                                 <div class="task-name-select">
-                                    <select name="task" id="" value="">
+                                    <select name="task" id="" value="" >
+                                        <option value="">Выберите...</option>
                                         <option value="">HTML вёрстка</option>
                                         <option value="">Сайт визитка</option>
                                         <option value="">Интернет-магазин</option>
                                         <option value="">Сайт-каталог</option>
-                                        <option value=""></option>
-                                        <option value=""></option>
-                                        <option value=""></option>
-                                        <option value=""></option>
-                                        <option value=""></option>
-                                        <option value=""></option>
-                                        <option value=""></option>
-                                        <option value=""></option>
-                                        <option value=""></option>
-                                        <option value=""></option>
+                                        <option value="">Корпоративный сайт</option>
+                                        <option value="">Индивидуалный проект</option>
+                                        <option value="">Landing page</option>
+                                        <option value="">Наполнение сайта</option>
+                                        <option value="">Email расслыка</option>
+                                        <option value="">Оптимизация сайта</option>
+                                        <option value="">Поддержка сайта</option>
+                                        <option value="">Другое (указать в описании)</option>
                                     </select>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="chose">
+                            <div class="chose-this-one">
+                                <div class="chose-fast">
+                                    <label for="fast-notfast" class="label-first">Срочность <span>*</span></label>
+                                    <div class="fast-or-not-fast">
+                                        <input type="radio" name="fast-notfast-" id="fast-notfast-">
+                                            <label for="fast-notfast-">Срочно</label>
+                                        <input type="radio" name="notfast-fast" id="notfast-fast">
+                                            <label for="notfast-fast">Не срочно</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chose-this-two">
+                                <div class="chose-tz">
+                                    <label for="yes-no" class="label-chose">Есть ли у вас техническое задание? 
+                                        <span>*</span></label>
+                                    <div class="yes-or-no">
+                                        <input type="radio" name="yes-have" id="yes-have">
+                                            <label for="yes-have">Да</label>
+                                        <input type="radio" name="no-have" id="no-have">
+                                            <label for="no-have">Нет</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="user-write">
+                            <label for="text-user">Описание проекта, требования, конкуренты, особые пожелания, бюджет
+                                 <span>*</span></label>
+                                 <textarea name="text-user" id="text-user" cols="80" rows="5"></textarea>
+                        </div>
+
                     </div>
+                    
+                    
 
                     <div class="send">
                         <div class="send-icon">
@@ -136,7 +166,7 @@
                 </div>
     </div>
 
-     <!--Контакты в правом нижнем углу-->
+    <!--Контакты в правом нижнем углу-->
     <div class="block-info-ivan">
         <div class="information-ivan">
             <div class="ivan-info-fi">
@@ -168,13 +198,12 @@
         </div>
     </div>
 
-
     <!-- Кнопка прокрутки вверх -->
     <a id="button"></a>
 
     <!-- Конец шапки сайта-->
 
-    <!-- Раздел НАШИ УСЛУГИ -->
+     <!-- Раздел НАШИ УСЛУГИ -->
     <div class="main_our_services">
         <a name="sservices"></a>
         <h1 class="our_services"><i class="fa fa-check-circle" width="100" height="100"></i>НАШИ УСЛУГИ</h1>
@@ -260,6 +289,57 @@
             </div>
 
 
+        </div>
+    </div>
+
+    <!-- Раздел "Преимущества" -->
+
+    <div class="advantages">
+
+        <h1 class="advantages_advantages"><i class="fa fa-user"></i>ПРЕИМУЩЕСТВА</h1>
+
+        <div class="advantages_spisok">
+
+            <div class="advantages_first_column">
+
+                <div class="advantages_adequate_price">
+                    <h3><i class="fa fa-credit-card"></i>ЦЕНЫ</h3>
+                    <p>Актуальные цены за качественную и современную работу.</p>
+                </div>
+
+                <div class="advantages_cleancode">
+                    <h3><i class="fa fa-code"></i>ЧИСТЫЙ И ОПТИМИЗИРОВАННЫЙ КОД</h3>
+                    <p>Код сайта оптимизирован, закоментирован и понятен.</p>
+                </div>
+            </div>
+
+            <div class="advantages_second_column">
+
+                <div class="advantages_lasttechnologies">
+                    <h3><i class="fa fa-globe"></i>ТЕХНОЛОГИИ</h3>
+                    <p>Не сомневайтесь при разработке Вашего сайта будут использоваться новейшие технологии из мира IT, версии всех библиотек и скриптов будут самыми актуальными.</p>
+                </div>
+
+                <div class="advantages_garantee">
+                    <h3><i class="fa fa-tag"></i>ГАРАНТИЯ</h3>
+                    <p>После создания сайта действует гарантия – 1 месяц. В течении этого месяца мы будем исправлять любые неполадки связанные с Вашим сайтом.</p>
+                </div>
+
+            </div>
+
+            <div class="advantages_third_column">
+
+                <div class="advantages_timings">
+                    <h3><i class="fa fa-sitemap"></i>ОБЩЕНИЕ</h3>
+                    <p>Вы сможете пообщаться с каждым членом команды отдельно, узнать что это за специалист и человек в общем. Основные переговоры с Вами будет вести менеджер, вы сможете наблюдать весь прогресс создания Вашего проекта.</p>
+                </div>
+
+                <div class="advantages_communication">
+                    <h3><i class="fa fa-percent"></i>БОНУСЫ И СКИДКИ</h3>
+                    <p>Для наших постоянных клиентов мы регулярно даем бонусы и скидки.</p>
+                </div>
+
+            </div>
         </div>
     </div>
 
@@ -492,6 +572,8 @@
 <script type="text/javascript" src="scripts/yakor.js"></script>
 
 <script type="text/javascript" src="scripts/script_for_z.js"></script>
+
+<script type="text/javascript" src="scripts/contacts.js"></script>
 
 </body>
 </html>

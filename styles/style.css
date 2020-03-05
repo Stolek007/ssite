@@ -1,7 +1,7 @@
 /* CSS для главной страницы */
 
 body{
-  font-family: Verdana;
+	font-family: Verdana;
   background-color: white;
 }
 
@@ -31,7 +31,7 @@ header {
 }
 
 .main-menu{
-  width: 100%;
+	width: 100%;
 }
 
 .menu-li {
@@ -67,14 +67,14 @@ header {
 }
 
 .menu-ul{
-  display: flex;
-  padding: 0;
-  justify-content: left;
+	display: flex;
+	padding: 0;
+	justify-content: left;
 }
 
 .menu-li{
-  list-style: none;
-  padding: 10px;
+	list-style: none;
+	padding: 10px;
   line-height: 1;
   display: inline-block;
   color:#ffeb3b;
@@ -83,33 +83,33 @@ header {
 }
 
 li.menu-li a{
-  text-decoration: none;
-  font-size: 18px;
-  color: #000;
-  position: relative;
-  padding: 5px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #000;
+	position: relative;
+	padding: 5px;
 }
 
 li.menu-li a i{
-  margin-right: 10px;
+	margin-right: 10px;
 
 }
 
 li.menu-li a::before{
-  content: '';
-  width: 0%;
-  height: 2px;
-  background-color: blue;
-  position: absolute;
-  top: 90%;
-  left: 0;
-  transition: .5s;
-  mix-blend-mode: multiply;
+	content: '';
+	width: 0%;
+	height: 2px;
+	background-color: blue;
+	position: absolute;
+	top: 90%;
+	left: 0;
+	transition: .5s;
+	mix-blend-mode: multiply;
 
 }
 
 li.menu-li a::after{
-  display: block;
+	display: block;
   height: 2px;
   width: 0%;
   background-color: red;
