@@ -1,0 +1,212 @@
+/*CSS Для контактов*/
+.contacts-bottom-right{
+	background: white;
+	height: 30.5vh;
+	width: 65px;
+	border: 2px solid #555;
+	display: block;
+	position: fixed;
+	top: 80%;
+	left: 98%;
+	transform: translate(-50%,-50%);
+	border-radius: 10px;
+}
+.ivan-phone{
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 7vh;
+	width: 55px;
+	background-color: white;
+	display: block;
+}
+.ivan-email{
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 7vh;
+	width: 55px;
+	background-color: white;
+	display: block;
+}
+.ivan-telega{
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 7vh;
+	width: 55px;
+	background-color: white;
+	display: block;
+}
+.ivan-discord{
+	margin-top: 5px;
+	margin-left: 5px;
+	height: 7vh;
+	width: 55px;
+	background-color: white;
+	display: block;
+}
+.contacts-bottom-right img{
+	height: 5vh;
+	position: relative;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	cursor: pointer;
+}
+.information-ivan{
+	height: 30.5vh;
+	width: 350px;
+	position: fixed;
+	transform: translate(-100%,-50%);
+	top: 80%;
+	left: 96%;
+	display: block;
+}
+.ivan-info-fi{
+	height: 7vh;
+	width: 0px;
+	position: relative;
+	top: 33px;
+	transform: translate(-100%,-50%);
+	display: none;
+	margin-left: 350px;
+	margin-top: 5px;
+	border-radius: 45px 0px 0px 15px;
+	animation: backfi 0.5s ease-in-out;
+}
+.ivan-info-fi-yes{
+	height: 7vh;
+	width: 330px;
+	position: relative;
+	top: 33px;
+	transform: translate(-100%,-50%);
+	display: block;
+	background: #5cfa5c;
+	margin-left: 360px;
+	margin-top: 5px;
+	border-radius: 45px 0px 0px 15px;
+	animation: wowfi 0.5s ease-in-out;
+}
+.ivan-info-se{
+	height: 7vh;
+	width: 0px;
+	position: relative;
+	transform: translate(-100%,-50%);
+	display: none;
+	margin-left: 350px;
+	margin-top: 5px;
+	border-radius: 45px 0px 0px 15px;
+}
+.ivan-info-se-yes{
+	height: 7vh;
+	width: 330px;
+	position: relative;
+	top: 109px;
+	transform: translate(-100%,-50%);
+	display: block;
+	background: #fc6065;
+	margin-left: 360px;
+	margin-top: 5px;
+	border-radius: 45px 0px 0px 15px;
+	animation: wowse 0.5s ease-in-out;
+}
+.ivan-info-th{
+	height: 7vh;
+	width: 0px;
+	position: relative;
+	transform: translate(-100%,-50%);
+	display: none;
+	margin-left: 360px;
+	margin-top: 5px;
+	border-radius: 45px 0px 0px 15px;
+}
+.ivan-info-th-yes{
+	height: 7vh;
+	width: 330px;
+	position: relative;
+	top: 184px;
+	transform: translate(-100%,-50%);
+	display: block;
+	background: #51a6f5;
+	margin-left: 360px;
+	margin-top: 5px;
+	border-radius: 45px 0px 0px 15px;
+	animation: wowth 0.5s ease-in-out;
+
+}
+.ivan-info-fo{
+	height: 7vh;
+	width: 0px;
+	position: relative;
+	transform: translate(-100%,-50%);
+	display: none;
+	margin-left: 350px;
+	margin-top: 5px;
+	border-radius: 45px 0px 0px 15px;
+	transition: 0.5s;
+}
+.ivan-info-fo-yes{
+	height: 7vh;
+	width: 330px;
+	position: relative;
+	top: 259px;
+	transform: translate(-100%,-50%);
+	display: block;
+	background: #9e63f7;
+	margin-left: 360px;
+	margin-top: 5px;
+	border-radius: 45px 0px 0px 15px;
+	animation: wowfo 0.5s ease-in-out;
+}
+
+@keyframes wowfi{
+	0%{
+		height: 7vh;
+	width: 0px;
+	}
+	100%{
+		height: 7vh;
+	width: 330px;
+	}
+}
+
+@keyframes wowse{
+	0%{
+		height: 7vh;
+	width: 0px;
+	}
+	100%{
+		height: 7vh;
+	width: 330px;
+	}
+}
+
+@keyframes wowth{
+	0%{
+		height: 7vh;
+	width: 0px;
+	}
+	100%{
+		height: 7vh;
+	width: 330px;
+	}
+}
+
+@keyframes wowfo{
+	0%{
+		height: 7vh;
+		width: 0px;
+	}
+	100%{
+		height: 7vh;
+		width: 330px;
+	}
+}
+
+.information-ivan b{
+	font-size: 21px;
+	text-align: center;
+	display: inline-block;
+	transform: translate(-100%,-50%);
+	position: relative;
+	top: 50%;
+	left: 93%;
+}
