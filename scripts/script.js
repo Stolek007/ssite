@@ -3,7 +3,7 @@ $(document).ready(function() {
 	$(".order_service_1").magnificPopup();
 })
 
-var btn = $('#button');
+var btn = $('#button-up');
 
 $(window).scroll(function() {
   if ($(window).scrollTop() > 300) {

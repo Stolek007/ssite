@@ -1,0 +1,200 @@
+[33mcommit 696edc150c8a8e5cd9a558d04c23dc9447b09dc7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Stolek007 <ghettovanek04@gmail.com>
+Date:   Fri Mar 6 21:51:49 2020 +0200
+
+    release v1.4
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 01fe5df..dac2e77 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,6 +1,7 @@[m
+ <!DOCTYPE html>[m
+ <html lang="ru">[m
+ <head>[m
+[32m+[m[32m    <script src="scripts/jquery-3.4.1.min.js"></script>[m
+ [m
+     <meta charset="UTF-8">[m
+     <link rel="stylesheet" href="styles/style.css" type="text/css">[m
+
+[33mcommit 43558c7320551324fc05dcd69af8ace5d6502dc2[m
+Merge: b208ff4 eae1f04
+Author: Stolek007 <ghettovanek04@gmail.com>
+Date:   Fri Mar 6 21:49:58 2020 +0200
+
+    Merge branch 'master' of https://github.com/Stolek007/ssite
+
+[33mcommit b208ff4b8ccdc77a5d59eaf706bf91035d32dde8[m
+Author: Stolek007 <ghettovanek04@gmail.com>
+Date:   Fri Mar 6 21:49:48 2020 +0200
+
+    release v1.4
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex c0ac740..d6df9f7 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,12 +1,15 @@[m
+ <!DOCTYPE html>[m
+ <html lang="ru">[m
+ <head>[m
+[32m+[m
+     <meta charset="UTF-8">[m
+     <link rel="stylesheet" href="styles/style.css" type="text/css">[m
+     <link rel="stylesheet" href="styles/font-awesome.css" type="text/css">[m
+     <link rel="stylesheet" href="styles/style_slider.css" type="text/css">[m
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">[m
+[32m+[m
+     <link rel="stylesheet" href="styles/for_up.css">[m
+[32m+[m
+     <link rel="stylesheet" href="styles/style_for_z.css">[m
+     <link rel="stylesheet" href="styles/style-slick.css">[m
+     <link rel="stylesheet" href="styles/contacts.css">[m
+[36m@@ -532,6 +535,7 @@[m
+        <h4>© 2020. Фрилансер, Веб-программист. Все права защищены.</h4>[m
+    </div>[m
+ </footer>[m
+[32m+[m
+ <script type="text/javascript" src="scripts/script.js"></script>[m
+ [m
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>[m
+
+[33mcommit eae1f0409c48d190453da28344e9a33cbb02b314[m
+Author: Simply-DJI <sisimsimsp@gmail.com>
+Date:   Fri Mar 6 21:47:41 2020 +0200
+
+    release v1.5
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex c0ac740..711166b 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -14,7 +14,7 @@[m
+     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">[m
+     <title>Сайт-визитка</title>[m
+ </head>[m
+[31m-<body>  [m
+[32m+[m[32m<body>[m
+ [m
+ [m
+     <!-- Шапка сайта -->[m
+[36m@@ -200,7 +200,7 @@[m
+        </div>[m
+ [m
+        <!-- Кнопка прокрутки вверх -->[m
+[31m-       <a id="button"></a>[m
+[32m+[m[32m       <a id="button-up"></a>[m
+ [m
+        <!-- Конец шапки сайта-->[m
+ [m
+
+[33mcommit 7a0c962ac5be79499bd61be139e5707b56e61ae5[m
+Author: Simply-DJI <sisimsimsp@gmail.com>
+Date:   Fri Mar 6 21:10:59 2020 +0200
+
+    release v1.5
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 1bc91ef..c0ac740 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,8 +1,6 @@[m
+ <!DOCTYPE html>[m
+ <html lang="ru">[m
+ <head>[m
+[31m-    <script src="scripts/jquery-3.4.1.min.js"></script>[m
+[31m-[m
+     <meta charset="UTF-8">[m
+     <link rel="stylesheet" href="styles/style.css" type="text/css">[m
+     <link rel="stylesheet" href="styles/font-awesome.css" type="text/css">[m
+[36m@@ -10,6 +8,7 @@[m
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">[m
+     <link rel="stylesheet" href="styles/for_up.css">[m
+     <link rel="stylesheet" href="styles/style_for_z.css">[m
+[32m+[m[32m    <link rel="stylesheet" href="styles/style-slick.css">[m
+     <link rel="stylesheet" href="styles/contacts.css">[m
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">[m
+     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">[m
+[36m@@ -437,9 +436,25 @@[m
+ [m
+     <!-- Раздел портфолио -->[m
+     <div class="portfolio">[m
+[31m-        <a name="pportfolio"></a>[m
+[31m-    </div>[m
+[31m-[m
+[32m+[m[32m        <h3>Портфолио</h3>[m
+[32m+[m[32m        <div class="slider">[m
+[32m+[m[32m            <div class="slider__item filter">[m
+[32m+[m[32m                <img src="img/suprra.jpg" alt="">[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div class="slider__item">[m
+[32m+[m[32m                <img src="img/suprra.jpg" alt="">[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div class="slider__item filter">[m
+[32m+[m[32m                <img src="img/suprra.jpg" alt="">[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div class="slider__item filter">[m
+[32m+[m[32m                <img src="img/suprra.jpg" alt="">[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div class="slider__item filter">[m
+[32m+[m[32m                <img src="img/suprra.jpg" alt="">[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <!-- Конец раздела портфолио -->[m
+ [m
+     <!-- Раздел "Как попасть к нам в команду" -->[m
+     <div class="how_to_join_us">[m
+[36m@@ -517,7 +532,6 @@[m
+        <h4>© 2020. Фрилансер, Веб-программист. Все права защищены.</h4>[m
+    </div>[m
+ </footer>[m
+[31m-[m
+ <script type="text/javascript" src="scripts/script.js"></script>[m
+ [m
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>[m
+[36m@@ -527,6 +541,11 @@[m
+ <script type="text/javascript" src="scripts/script_for_z.js"></script>[m
+ [m
+ <script type="text/javascript" src="scripts/contacts.js"></script>[m
+[31m-[m
+[32m+[m[32m    <!-- Подключаем jQuery -->[m
+[32m+[m[32m    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>[m
+[32m+[m[32m    <!-- Подключаем слайдер Slick -->[m
+[32m+[m[32m    <script src="scripts/slick.min.js"></script>[m
+[32m+[m[32m    <!-- Подключаем файл скриптов -->[m
+[32m+[m[32m    <script src="scripts/script-slick.js"></script>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+
+[33mcommit b380d8007b8666e1e499e3bf75027d3dbdacc4fb[m
+Author: Stolek007 <ghettovanek04@gmail.com>
+Date:   Fri Mar 6 20:08:24 2020 +0200
+
+    release v1.4
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 83a7f91..1bc91ef 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -13,7 +13,7 @@[m
+     <link rel="stylesheet" href="styles/contacts.css">[m
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">[m
+     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">[m
+[31m-    <title>CSS3 menu</title>[m
+[32m+[m[32m    <title>Сайт-визитка</title>[m
+ </head>[m
+ <body>  [m
+ [m
+[36m@@ -23,7 +23,7 @@[m
+         <nav class="mmm">[m
+             <div class="main-menu">[m
+                 <ul class="menu-ul">[m
+[31m-                    <li class="logo"><a href="index.html">Сайт-визитка</a></li>[m
+[32m+[m[32m                    <li class="logo"><a href="http://stolek007.beget.tech/">Сайт-визитка</a></li>[m
+                     <li class="menu-li"><a href="#resumme"><i class="fa fa-clipboard"></i>РЕЗЮМЕ</a></li>[m
+                     <li class="menu-li"><a href="#pportfolio"><i class="fa fa-image"></i>ПОРТФОЛИО</a></li>[m
+                     <li class="menu-li"><a href="#sservices"><i class="fa fa-cogs"></i>УСЛУГИ</a></li>[m
+[36m@@ -457,7 +457,7 @@[m
+ [m
+        <div class="additional_info_
