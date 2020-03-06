@@ -6,7 +6,7 @@ body{
 }
 
 header {
-  background-image: url();
+  background-image: url(#);
 }
 
 .hidden {
@@ -151,7 +151,6 @@ li.menu-li:focus:after {
 .phone_number {
   width:50%;
   justify-content: right;
-  text-orientation: right;
   margin: 90%;
 }
 
@@ -208,7 +207,7 @@ li.menu-li:focus:after {
 }
 
 .main_our_services {
-  background-image: url();
+  background-image: url(#);
   padding-left: 200px;
   padding-right: 200px;
 }
@@ -240,7 +239,7 @@ li.menu-li:focus:after {
 
 
 .advantages {
-  background-image: url();
+  background-image: url(#);
   padding-left: 200px;
   padding-right: 200px;
 }
@@ -331,7 +330,7 @@ li.menu-li:focus:after {
 
 .my_command h1 i {
   margin-right: 20px;
-  background-image: url();
+  background-image: url(#);
 
 }
 
@@ -372,14 +371,14 @@ li.menu-li:focus:after {
   margin-top: 75px;
 }
 
-.button_portfolio {
+.button-up_portfolio {
   width: 250px;
   height: 40px;
   cursor: pointer;
   margin-top: 30px;
 }
 
-.button_portfolio:hover{
+.button-up_portfolio:hover{
   color: red;
   border-color: red;
 }
@@ -394,7 +393,7 @@ li.menu-li:focus:after {
 }
 
 
-.how_to_join_us button {
+.how_to_join_us button-up {
   size: 20px;
   width: 250px;
   height: 40px;
@@ -403,7 +402,7 @@ li.menu-li:focus:after {
   transition: 0.5s;
 }
 
-.how_to_join_us button:hover {
+.how_to_join_us button-up:hover {
   background-color: gold;
   height: 40px;
   width: 350px;

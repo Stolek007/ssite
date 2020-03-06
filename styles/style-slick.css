@@ -1,3 +1,8 @@
+/*Обнуление*/
+*,*:before,*:after{
+	border: 0;
+	box-sizing: border-box;
+}
 /* Слайдер */
 .slick-slider{
 	min-width: 0;
@@ -29,11 +34,6 @@
 .slick-arrow.slick-next{}
 /* Стрелка не активная */
 .slick-arrow.slick-disabled{}
-
-/* Точки */
-.slick-dots{}
-.slick-dots li{}
-.slick-dots button{}
 
 /* Конкретный слайдер */
 .slider {
@@ -77,7 +77,7 @@
 	list-style: none;
 	margin: 0px 10px;
 }
-.slider .slick-dots button{
+.slider .slick-dots {
 	font-size: 0;
 	width: 10px;
 	height: 10px;
@@ -85,7 +85,7 @@
 	border-radius: 50%;
 }
 
-.slider .slick-dots li.slick-active button{
+.slider .slick-dots li.slick-active{
 	background-color: transparent;
 	border: 1px solid #fff;
 }
