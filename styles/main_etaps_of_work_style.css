@@ -1,0 +1,28 @@
+body {
+	background-color: green;
+}
+
+.main_s {
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+.h_h1 {
+	text-align: center;
+}
+
+.zagolovok {
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+p span {
+	font-weight: bold;
+
+}
+
+.zagolovok_1 {
+	font-weight: normal;
+	font-style: italic;
+}
