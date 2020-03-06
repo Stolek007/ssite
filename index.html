@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <script src="scripts/jquery-3.4.1.min.js"></script>
-
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/style.css" type="text/css">
     <link rel="stylesheet" href="styles/font-awesome.css" type="text/css">
@@ -10,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/for_up.css">
     <link rel="stylesheet" href="styles/style_for_z.css">
+    <link rel="stylesheet" href="styles/style-slick.css">
     <link rel="stylesheet" href="styles/contacts.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
@@ -437,9 +436,25 @@
 
     <!-- Раздел портфолио -->
     <div class="portfolio">
-        <a name="pportfolio"></a>
-    </div>
-
+        <h3>Портфолио</h3>
+        <div class="slider">
+            <div class="slider__item filter">
+                <img src="img/suprra.jpg" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="img/suprra.jpg" alt="">
+            </div>
+            <div class="slider__item filter">
+                <img src="img/suprra.jpg" alt="">
+            </div>
+            <div class="slider__item filter">
+                <img src="img/suprra.jpg" alt="">
+            </div>
+            <div class="slider__item filter">
+                <img src="img/suprra.jpg" alt="">
+            </div>
+        </div>
+        <!-- Конец раздела портфолио -->
 
     <!-- Раздел "Как попасть к нам в команду" -->
     <div class="how_to_join_us">
@@ -517,7 +532,6 @@
        <h4>© 2020. Фрилансер, Веб-программист. Все права защищены.</h4>
    </div>
 </footer>
-
 <script type="text/javascript" src="scripts/script.js"></script>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
@@ -527,6 +541,11 @@
 <script type="text/javascript" src="scripts/script_for_z.js"></script>
 
 <script type="text/javascript" src="scripts/contacts.js"></script>
-
+    <!-- Подключаем jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Подключаем слайдер Slick -->
+    <script src="scripts/slick.min.js"></script>
+    <!-- Подключаем файл скриптов -->
+    <script src="scripts/script-slick.js"></script>
 </body>
 </html>

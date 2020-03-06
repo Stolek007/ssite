@@ -6,7 +6,7 @@ $(function(){
     // отменяем стандартное действие
     event.preventDefault();
     
-    var sc = $(this).attr("href="""),
+    var sc = $(this).attr(href=""),
         dn = $(sc).offset().top;
     /*
     * sc - в переменную заносим информацию о том, к какому блоку надо перейти
