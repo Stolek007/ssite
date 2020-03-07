@@ -1,0 +1,35 @@
+body {
+}
+
+.magazine {
+	text-align: center;
+	margin-bottom: 40px;
+	background-image: url(#);
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+
+.magazine_spisok {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.magazine_spisok button {
+	cursor: pointer;
+	background-color: green;
+	margin-top: 5%;
+}
+
+.magazine_first_column {
+	width: 25%;
+}
+
+.magazine_second_column {
+	width: 25%;
+}
+
+.magazine_third_column {
+	width: 25%;
+}
