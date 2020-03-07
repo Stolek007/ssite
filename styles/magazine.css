@@ -53,8 +53,10 @@ body {
 .magazine_verstka {
 	outline: 1px;
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
-	height: 100%;
+	height: 25%;
 	width: 61%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 .magazine_verstka:hover {
