@@ -1,11 +1,11 @@
-.verstka_verstka {
+.internet_magazine {
 	width: 100%;
 	display: flex;
 	justify-content: center;
 }
 
 
-.verstka_first_column {
+.internet_magazine_first_column {
 	margin-left: 20%;
 	margin-right: 1%;
 	width: 45%;
@@ -13,7 +13,7 @@
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
-.verstka_discription {
+.internet_magazine_discription {
 	padding-left: 2%;
 	padding-right: 2%;
 }
@@ -22,7 +22,7 @@
 	text-align: center;
 }
 
-.verstka_button_zakaz1 {
+.internet_magazine_button_zakaz1 {
 	text-align: center;
 	text-decoration: none;
 	outline: none;
@@ -45,14 +45,14 @@
 	cursor: pointer;
 }
 
-.verstka_button_zakaz1:hover {
+.internet_magazine_button_zakaz1:hover {
 	background: green;
 	box-shadow: 0 15px 20px rgba(46,229,157,.4);
 	color: white;
 	transform: translateY(-7px);
 }
 
-.verstka_button_zakaz2 {
+.internet_magazine_button_zakaz2 {
 	text-align: center;
 	text-decoration: none;
 	outline: none;
@@ -75,82 +75,82 @@
 	cursor: pointer;
 }
 
-.verstka_button_zakaz2:hover {
+.internet_magazine_button_zakaz2:hover {
 	background: green;
 	box-shadow: 0 15px 20px rgba(46,229,157,.4);
 	color: white;
 	transform: scale(1.1);
 }
 
-.verstka_discription h1 {
+.internet_magazine_discription h1 {
 	text-align: center;
 }
 
-.verstka_first_column img {
+.internet_magazine_first_column img {
 	width: 100%;
 	transition: 0.5s;
 }
 
-.verstka_first_column img:hover {
+.internet_magazine_first_column img:hover {
 	transform: scale(1.05);
 	box-shadow: 0 15px 20px rgba(46,229,157,.4);
 }
 
-.verstka_second_column {
+.internet_magazine_second_column {
 	width: 19%;
 	margin-right: 10%;
 	outline: 1px;
 }
 
-.verstka_first_cell {
+.internet_magazine_first_cell {
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
-.verstka_first_cell:hover {
+.internet_magazine_first_cell:hover {
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.verstka_first_cell h4 {
+.internet_magazine_first_cell h4 {
 	padding-left: 1%;
 	padding-top: 1%;
 }
 
-.verstka_first_cell p {
+.internet_magazine_first_cell p {
 	padding-left: 1%;
 	padding-bottom: 1%;
 }
 
-.verstka_second_cell {
+.internet_magazine_second_cell {
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 	text-align: center;
 }
 
-.verstka_second_cell:hover {
+.internet_magazine_second_cell:hover {
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.verstka_second_cell h3 {
+.internet_magazine_second_cell h3 {
 	padding-top: 1%;
 	padding-left: 1%;
 	text-align: center;
 }
 
-.verstka_third_cell {
+.internet_magazine_third_cell {
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 	height: 15%;
 }
 
-.verstka_third_cell:hover {
+.internet_magazine_third_cell:hover {
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);;
 }
 
-.verstka_third_cell h4 {
+.internet_magazine_third_cell h4 {
 	text-align: left;
 	padding-left: 1%;
 	padding-top: 1%;
 }
 
-.verstka_third_cell p {
+.internet_magazine_third_cell p {
 	padding-left: 1%;
 	padding-top: 1%;
 }
