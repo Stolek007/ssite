@@ -3,6 +3,11 @@
 <head>
     <script src="scripts/jquery-3.4.1.min.js"></script>
 
+    <!-- Надо убрать все что ниже! -->
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <!-- Надо убрать все что выше! -->
+
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/style.css" type="text/css">
     <link rel="stylesheet" href="styles/font-awesome.css" type="text/css">
@@ -131,10 +136,10 @@
                             <div class="fast-or-not-fast">
                                 <input type="radio" name="fast-notfast-" id="notfast-fast">
                                 <label for="notfast-fast">Telegram</label>
-                                <input type="radio" name="fast-notfast-" id="notfast-fast">
-                                <label for="notfast-fast">Телефон</label>
-                                <input type="radio" name="fast-notfast-" id="notfast-fast">
-                                <label for="notfast-fast">Другое</label>
+                                <input type="radio" name="fast-notfast-" id="notfast-fast-b">
+                                <label for="notfast-fast-b">Телефон</label>
+                                <input type="radio" name="fast-notfast-" id="notfast-fast-c">
+                                <label for="notfast-fast-c">Другое</label>
                             </div>
                         </div>
                     </div>
@@ -154,15 +159,15 @@
 
                     <div class="user-write">
                         <label for="text-user">Описание проекта, ТЗ, сайты конкурентов, понравившиеся сайты, бюджет.
-                           <span>*</span></label>
-                           <textarea name="text-user" id="text-user" cols="80" rows="5"></textarea>
-                       </div>
+                         <span>*</span></label>
+                         <textarea name="text-user" id="text-user" cols="80" rows="5"></textarea>
+                     </div>
 
-                   </div>
+                 </div>
 
 
 
-                   <div class="send">
+                 <div class="send">
                     <div class="send-icon">
                         <h3>ОТПРАВИТЬ</h3>
                     </div>
@@ -178,16 +183,16 @@
         <div class="block-info-ivan">
             <div class="information-ivan">
                 <div class="ivan-info-fi">
-                    <b></b>
+                    <b>Phone</b>
                 </div>
                 <div class="ivan-info-se">
-                    <b></b>
+                    <b>freevan04@gmail.com</b>
                 </div>
                 <div class="ivan-info-th">
-                    <b></b>
+                    <b>Telegram</b>
                 </div>
                 <div class="ivan-info-fo">
-                    <b>Stolek#8481</b>
+                    <b>Discord</b>
                 </div>
             </div>
             <div class="contacts-bottom-right">
@@ -195,24 +200,24 @@
                     <img src="img/phone.svg" alt="" onmouseover="showPhone()" onmouseleave="showPhoneNo()">
                 </div>
                 <div class="ivan-email">
-                   <img src="img/email.svg" alt="" onmouseover="showEmail()" onmouseleave="showEmailNo()">
-               </div>
-               <div class="ivan-telega">
-                   <img src="img/telegram.svg" alt="" onmouseover="showTelega()" onmouseleave="showTelegaNo()">
-               </div>
-               <div class="ivan-discord">
-                   <img src="img/discord.svg" alt="" onmouseover="showDiscord()" onmouseleave="showDiscordNo()">
-               </div>
-           </div>
-       </div>
+                 <img src="img/email.svg" alt="" onmouseover="showEmail()" onmouseleave="showEmailNo()">
+             </div>
+             <div class="ivan-telega">
+                 <img src="img/telegram.svg" alt="" onmouseover="showTelega()" onmouseleave="showTelegaNo()">
+             </div>
+             <div class="ivan-discord">
+                 <img src="img/discord.svg" alt="" onmouseover="showDiscord()" onmouseleave="showDiscordNo()">
+             </div>
+         </div>
+     </div>
 
-       <!-- Кнопка прокрутки вверх -->
-       <a id="button-up"></a>
+     <!-- Кнопка прокрутки вверх -->
+     <a id="button-up"></a>
 
-       <!-- Конец шапки сайта-->
+     <!-- Конец шапки сайта-->
 
-       <!-- Раздел НАШИ УСЛУГИ -->
-       <div class="main_our_services">
+     <!-- Раздел НАШИ УСЛУГИ -->
+     <div class="main_our_services">
         <a name="sservices"></a>
         <h1 class="our_services"><i class="fa fa-check-circle" width="100" height="100"></i>НАШИ УСЛУГИ</h1>
 
@@ -463,29 +468,29 @@
         </div>
         <!-- Конец раздела портфолио -->
 
-    <!-- Раздел "Как попасть к нам в команду" -->
-    <div class="how_to_join_us">
+        <!-- Раздел "Как попасть к нам в команду" -->
+        <div class="how_to_join_us">
 
-        <h1><i class="fa fa-user-plus"></i>КАК ПОПАСТЬ К НАМ В КОМАНДУ</h1>
-        <p>Для того чтобы попасть к нам в команду Вам нужно...</p>
-        <form action="#">
-            <button><i class="fa fa-address-book"></i>Заполнить заявку</button>
-        </form>
+            <h1><i class="fa fa-user-plus"></i>КАК ПОПАСТЬ К НАМ В КОМАНДУ</h1>
+            <p>Для того чтобы попасть к нам в команду Вам нужно...</p>
+            <form action="#">
+                <button><i class="fa fa-address-book"></i>Заполнить заявку</button>
+            </form>
+        </div>
+
+        <!-- Раздел "Доп. информация" -->
+        <div class="additional_info">
+         <h1><i class="fa fa-info-circle"></i>ДОП. ИНФОРМАЦИЯ</h1>
+
+         <div class="additional_info_spisok">
+            <a href="#"><i class="fa fa-check"></i>Виды веб сайтов</a><br>
+            <a href="main_etaps_of_work.html"><i class="fa fa-check"></i>Основные этапы разработки сайтов</a><br>
+            <a href="#"><i class="fa fa-check"></i>Оплата работы</a><br>
+            <a href="#"><i class="fa fa-check"></i>С чем мы умеем работать ?</a><br>
+            <a href="#"><i class="fa fa-check"></i>Самые часто задаваемые вопросы (FAQ)</a><br>  
+        </div>
+
     </div>
-
-    <!-- Раздел "Доп. информация" -->
-    <div class="additional_info">
-       <h1><i class="fa fa-info-circle"></i>ДОП. ИНФОРМАЦИЯ</h1>
-
-       <div class="additional_info_spisok">
-        <a href="#"><i class="fa fa-check"></i>Виды веб сайтов</a><br>
-        <a href="main_etaps_of_work.html"><i class="fa fa-check"></i>Основные этапы разработки сайтов</a><br>
-        <a href="#"><i class="fa fa-check"></i>Оплата работы</a><br>
-        <a href="#"><i class="fa fa-check"></i>С чем мы умеем работать ?</a><br>
-        <a href="#"><i class="fa fa-check"></i>Самые часто задаваемые вопросы (FAQ)</a><br>  
-    </div>
-
-</div>
 
 </div>
 
@@ -535,9 +540,9 @@
 </div>
 
 <footer>
-   <div class="c2020">
-       <h4>© 2020. Фрилансер, Веб-программист. Все права защищены.</h4>
-   </div>
+ <div class="c2020">
+     <h4>© 2020. Фрилансер, Веб-программист. Все права защищены.</h4>
+ </div>
 </footer>
 
 <script type="text/javascript" src="scripts/script.js"></script>
@@ -549,11 +554,11 @@
 <script type="text/javascript" src="scripts/script_for_z.js"></script>
 
 <script type="text/javascript" src="scripts/contacts.js"></script>
-    <!-- Подключаем jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <!-- Подключаем слайдер Slick -->
-    <script src="scripts/slick.min.js"></script>
-    <!-- Подключаем файл скриптов -->
-    <script src="scripts/script-slick.js"></script>
+<!-- Подключаем jQuery -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- Подключаем слайдер Slick -->
+<script src="scripts/slick.min.js"></script>
+<!-- Подключаем файл скриптов -->
+<script src="scripts/script-slick.js"></script>
 </body>
 </html>
