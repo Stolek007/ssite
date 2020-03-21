@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <script src="scripts/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="scripts/mail_send.js"></script>
 
     <!-- Надо убрать все что ниже! -->
     <meta http-equiv="cache-control" content="no-cache">
@@ -79,6 +80,7 @@
     
 
     <!-- Вспылывающее окно для 'Заказать услугу' -->
+    <form id="form_mail">
     <div class="modal-back">
         <div class="modal-content">
             <div class="accept">
@@ -88,15 +90,15 @@
             <div class="user-info">
                 <div class="user-information">
                     <div class="name-user">
-                        <label for="fname">Как вас зовут? <span> *</span></label>
+                        <label for="fname">Как к Вам обращаться? <span> *</span></label>
                         <div class="user-name-input">
-                            <input type="text" name="fname" id="">
+                            <input type="text" name="fname" id="user_name">
                         </div>
                     </div>
                     <div class="email-user">
                         <label for="email">Ваш e-mail <span> *</span></label>
                         <div class="email-name-input">
-                            <input type="text" name="email" id="">
+                            <input type="text" name="email" id="user_email">
                         </div>
                     </div>
                 </div>
@@ -104,26 +106,26 @@
                     <div class="phone-user">
                         <label for="phone">Контактный телефон <span> *</span></label>
                         <div class="phone-name-input">
-                            <input type="text" name="phone" id="">
+                            <input type="text" name="phone" id="user_phone">
                         </div>
                     </div>
                     <div class="task-user">
-                        <label for="task">Выберите услугу <span> *</span></label>
+                        <label for="task">Выберите услугу<span> *</span></label>
                         <div class="task-name-select">
-                            <select name="task" id="" value="" >
-                                <option value="">Выберите...</option>
-                                <option value="">HTML вёрстка</option>
-                                <option value="">Сайт визитка</option>
-                                <option value="">Интернет-магазин</option>
-                                <option value="">Сайт-каталог</option>
-                                <option value="">Корпоративный сайт</option>
-                                <option value="">Индивидуалный проект</option>
-                                <option value="">Landing page</option>
-                                <option value="">Наполнение сайта</option>
-                                <option value="">Email расслыка</option>
-                                <option value="">Оптимизация сайта</option>
-                                <option value="">Поддержка сайта</option>
-                                <option value="">Другое (указать в описании)</option>
+                            <select name="task" id="task">
+                                <option value="1">Выберите...</option>
+                                <option value="2">HTML вёрстка</option>
+                                <option value="3">Сайт визитка</option>
+                                <option value="4">Интернет-магазин</option>
+                                <option value="5">Сайт-каталог</option>
+                                <option value="6">Корпоративный сайт</option>
+                                <option value="7">Индивидуалный проект</option>
+                                <option value="8">Landing page</option>
+                                <option value="9">Наполнение сайта</option>
+                                <option value="10">Email расслыка</option>
+                                <option value="11">Оптимизация сайта</option>
+                                <option value="12">Поддержка сайта</option>
+                                <option value="13">Другое (указать в описании)</option>
                             </select>
                         </div>
                     </div>
@@ -133,12 +135,12 @@
                     <div class="chose-this-one">
                         <div class="chose-fast">
                             <label for="fast-notfast" class="label-first">Способ связи<span>*</span></label>
-                            <div class="fast-or-not-fast">
-                                <input type="radio" name="fast-notfast-" id="notfast-fast">
+                            <div class="fast-or-not-fast" id="divchik">
+                                <input type="radio" name="fast-notfast" id="notfast-fast">
                                 <label for="notfast-fast">Telegram</label>
-                                <input type="radio" name="fast-notfast-" id="notfast-fast-b">
+                                <input type="radio" name="fast-notfast" id="notfast-fast-b">
                                 <label for="notfast-fast-b">Телефон</label>
-                                <input type="radio" name="fast-notfast-" id="notfast-fast-c">
+                                <input type="radio" name="fast-notfast" id="notfast-fast-c">
                                 <label for="notfast-fast-c">Другое</label>
                             </div>
                         </div>
@@ -147,7 +149,7 @@
                         <div class="chose-tz">
                             <label for="yes-no" class="label-chose">Есть ли у вас техническое задание? 
                                 <span>*</span></label>
-                                <div class="yes-or-no">
+                                <div class="yes-or-no" id="yeah_no">
                                     <input type="radio" name="yes-have" id="yes-have">
                                     <label for="yes-have">Да</label>
                                     <input type="radio" name="yes-have" id="no-have">
@@ -167,17 +169,14 @@
 
 
 
-                 <div class="send">
-                    <div class="send-icon">
-                        <h3>ОТПРАВИТЬ</h3>
-                    </div>
-                </div>
+                 <button type="button" name="button" id="sendMail">Отправить</button>
 
                 <div class="close-icon">
                     <i class="close">&times;</i>
                 </div>
             </div>
         </div>
+    </form>
 
         <!--Контакты в правом нижнем углу-->
         <div class="block-info-ivan">
@@ -560,5 +559,7 @@
 <script src="scripts/slick.min.js"></script>
 <!-- Подключаем файл скриптов -->
 <script src="scripts/script-slick.js"></script>
+
+<script src="scripts/mail_send.js"></script>
 </body>
 </html>
